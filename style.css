@@ -4,15 +4,125 @@
     box-sizing: border-box;
 }
 
+:root {
+    --first-color: #FED136;
+    --second-color: #FFFFFF;
+    --third-color:#222222;
+    --fourth-color:#777777;
+    --fifth-color:#BBBBBB;
+    --sixth-color:#CCCCCC;
+}
 
+body{
+    width: 100%;
+    flex-basis: 1404px;
+    font-family: Montserrat;
+}
 
 ul{
     list-style: none;
 }
 
-
-
-
 a{
     text-decoration: none;
+}
+
+
+
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+ ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis: 933px;
+    height: 39px;
+    margin: 15px auto;
+}
+
+
+
+.text, .text1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: stretch;
+}
+
+
+footer{
+    color: white;
+    background-color: #222222; 
+
+    flex-basis: 1404px;
+
+    align-content: center;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+
+
+input{
+    width: 455px;
+    height: 50px;
+}
+
+textarea{
+    width: 458px;
+    height: 212px;
+}
+
+button{
+    width: 242px;
+    height: 68px;
+    color: white;
+    background-color: #FED136;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+
+
 }
